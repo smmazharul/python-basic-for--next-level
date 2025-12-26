@@ -50,7 +50,8 @@ elif score >=40 and score<60:
 else:
     print("your grade point is: Fail")
 """
-
+# problem three
+"""
 hour = int(input("Enter the time: 0 to 23 "))
 
 if hour <0 or hour>23:
@@ -63,3 +64,34 @@ elif hour<=17 and hour<21:
     print("Evining")
 else:
     print("Night")
+"""
+
+"""
+hight_income = False
+good_credit = True
+
+if hight_income and good_credit:
+    print("Eligible for load")
+if hight_income or good_credit:
+    print("Eligible for load")
+
+"""
+
+name = "humayra"
+
+if len(name) < 3:
+    print("name must be at least 3 characters")
+elif len(name) >50:
+    print("name can be max of 50 characters")
+else:
+    print("name looks good")
+
+weight = int(input("Enter weight :"))
+units = input("Enter lbs(L) or Killo(K)")
+
+if units.upper() == "L":
+    converted = weight *.45
+    print(f"your are {converted} killows")
+else:
+    converted = weight /0.45
+    print(f"you are {converted} pounds ")
