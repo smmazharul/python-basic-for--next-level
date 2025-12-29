@@ -63,21 +63,13 @@
 # greeting(age=27,title="Student",name="Mazharul")
 
 # function with arbitary arguments
-
-# def add(*args):
-#     sum = 0
-#     for num in args:
-#         sum += num
-#     return sum
-# print(add(1))
-
-
-# def multiply(*nums):
-#     product = 1
-#     for num in nums:
-#         product *=num
-#     return product
-# print(multiply(2,3,4))
+#  function with *args
+def multiply(*nums):
+    product = 1
+    for num in nums:
+        product *=num
+    return product
+print(multiply(2,3,4))
 
 # function with **kwargs
 
