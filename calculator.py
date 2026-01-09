@@ -56,5 +56,5 @@ while is_runing:
 
 
 print("********************")
-print(f"The value: {value:.2f}")
+print(f"The value is: {value:.2f}")
 print("********************")
